@@ -4,10 +4,10 @@ Learning about Python and GIS as I go...
 
 Attempting to do everything in Python 3.x, [as supplied by Anaconda](https://docs.continuum.io/anaconda/pkg-docs).
 
-## Current status 
+# Current status 
 
 
-### Plotting on maps
+## Plotting data on maps
 
 Trying to use [matplotlib's basemap](https://github.com/matplotlib/basemap) to do geospatial visualizations.
 
@@ -19,8 +19,11 @@ Trying to use [matplotlib's basemap](https://github.com/matplotlib/basemap) to d
     
     <img src="assets/images/worldwide-m6-quakes-2000-2015-subplots.png" alt="basemap earthquakes">
 
+
+## Plotting shapefiles
+
 - [ ] Use basemap to read shapefile and project
-  - [x] <a id="mark-plot-census-checkoff"></a> Successfully plotted Census shapefile that's already in epsg:4326
+  - [x] Successfully plotted Census shapefile that's already in epsg:4326
     
     
     Check it out: [plot_census_counties.py](plot_census_counties.py)

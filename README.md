@@ -21,6 +21,12 @@ Trying to use [matplotlib's basemap](https://github.com/matplotlib/basemap) to d
 
 - [ ] Use basemap to read shapefile and project
   - [x] Successfully plotted Census shapefile that's already in epsg:4326
+    
+    <a id="mark-plot-census-checkoff"></a>
+    Check it out: [plot_census_counties.py](plot_census_counties.py)
+
+    <img src="assets/images/census-counties-20m.png" alt="census-counties-aea">  
+
   - [ ] Unable to open shapefiles that aren't in lat/lng format   
     
 

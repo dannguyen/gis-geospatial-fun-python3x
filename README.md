@@ -31,9 +31,9 @@ Trying to use [matplotlib's basemap](https://github.com/matplotlib/basemap) to d
     <img src="assets/images/worldwide-m6-quakes-2000-2015-subplots.png" alt="basemap earthquakes">
 
 
-## Plotting shapefiles
+## Working with shapefiles
 
-- [ ] Use basemap to read shapefile and project
+- [x] Use basemap to read shapefile and project
   - [x] Successfully plotted Census shapefile that's already in epsg:4326
     
     
@@ -41,9 +41,11 @@ Trying to use [matplotlib's basemap](https://github.com/matplotlib/basemap) to d
 
     <img src="assets/images/census-counties-20m.png" alt="census-counties-aea">  
 
-  - [x] Plot shapefiles that aren't in lat/lng format by first using [Geopandas to reproject to esri:4326](notebooks/Geopandas%20on%20OS%20X%20and%20Anaconda%20+%20Python 3.5.ipynb)
+- [x] Plot shapefiles that aren't in lat/lng format by first using [Geopandas to reproject to esri:4326](notebooks/Geopandas%20on%20OS%20X%20and%20Anaconda%20+%20Python 3.5.ipynb)
     
     <img src="notebooks/assets/simple-quakes-bay-counties-zips.png">
+
+- [x] Concatenated shapefiles and converted shapefiles into GeoJSON ([blog post on Census population estimates](http://blog.danwin.com/census-places-cartodb-geopandas-mapping/))
 
 
 ### Using pyshp
